@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #eee;
+}
+.container{
+    max-width: 1000px;;
+   background-color: #e4fffd;
+    margin: auto ;
+    padding: 10%;
+}
+
+.profile-image{
+    width: 100px;
+    height: 120px;
+    border: 2px solid blue;
+    border-radius: 50%;
+    padding: 2px;
+    float: left;
+}
+.header-bio{
+    padding: 3%;
+    float: left;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #11999e;
+}
+
+.header-contact {
+    float: right;
+    padding: 30px;
+   color: #01665f;
+}
+.header-contact a{
+    color: #11999e;
+    text-decoration: none;
+    font-weight: bold;
+}
+.header-contact a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.div-clear{
+    clear: both;
+}
+hr{
+    border: solid black 3px;
+    border-width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+
+/*------------
+personal section
+-----------*/
+
+#pesonal{
+
+}
+.content{
+    margin-bottom:none;
+}
+.left-div{
+    width: 30%;
+    float: left;
+}
+.right-div{
+   width: 70%;
+   float: left;
+font-weight: bold ;
+text-decoration: justify;
+
+}
+.common-hr{
+    border: solid black 1px;
+    border-bottom: none;
+    width: 100%;
+    margin: 2% auto;
+}
+.right-div1{
+    width: 70%;
+    float: left;
+ font-weight: bold ;
+ text-decoration: justify;
+ border: 1px;
+ 
+ }
+ .table{
+    background-color: aqua;
+ }
+.edu-right{
+    float: left ;
+    width: 45%;
+}
+.edu-left{
+    float: right ;
+    width: 45%;
+}
+
+/*---------
+footer
+----------*/
+.footer-cont{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+.footer-cont a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+.footer-cont p{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+.footer-cont a:hover{
+    color: red;
+    text-decoration: none;
+    margin: 20px;
+}
